@@ -4,50 +4,50 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Step 1: Compiling the code using a build automation tool (e.g., Maven)"
-                // Add actual build steps here
+                echo "Step 1: Compiling the code using a build automation tool ( Maven)"
+                
             }
         }
         
         stage('Unit and Integration Tests') {
             steps {
                 echo "Step 2: Executing unit and integration tests"
-                // Add actual test automation tool commands here
+                
             }
         }
 
         stage('Code Analysis') {
             steps {
-                echo "Step 3: Performing code analysis using a code quality tool (e.g., SonarQube)"
-                // Add actual code analysis tool commands here
+                echo "Step 3: Performing code analysis using a code quality tool (SonarQube)"
+                
             }
         }
 
         stage('Security Scan') {
             steps {
-                echo "Step 4: Conducting a security scan using a security analysis tool (e.g., OWASP ZAP)"
-                // Add actual security scan tool commands here
+                echo "Step 4: Conducting a security scan using a security analysis tool (OWASP ZAP)"
+                
             }
         }
 
         stage('Deploy to Staging') {
             steps {
-                echo "Step 5: Deploying the application to a staging server (e.g., AWS EC2)"
-                // Add actual deployment steps here
+                echo "Step 5: Deploying the application to a staging server ( AWS EC2)"
+                
             }
         }
 
         stage('Integration Tests on Staging') {
             steps {
                 echo "Step 6: Running integration tests on the staging environment"
-                // Add actual integration test commands here
+                
             }
         }
 
         stage('Deploy to Production') {
             steps {
-                echo "Step 7: Deploying the application to a production server (e.g., AWS EC2)"
-                // Add actual deployment steps here
+                echo "Step 7: Deploying the application to a production server ( AWS EC2)"
+                
             }
         }
     }
